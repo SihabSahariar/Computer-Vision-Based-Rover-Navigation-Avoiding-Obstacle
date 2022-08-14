@@ -42,7 +42,8 @@ while True:
 			text = "Moving Left...."
 			#Send signal to motor driver to turn left
 		else:
-			text = "Moving Right...." Send signal to motor driver to turn right
+			text = "Moving Right...." 
+			#Send signal to motor driver to turn right
 	
 	except IndexError:
 		continue
